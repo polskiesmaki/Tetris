@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="150.0" prefWidth="225.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+            <children>
+               <VBox alignment="CENTER" prefHeight="149.0" prefWidth="225.0">
+                  <children>
+                     <Label fx:id="messageText" text="Sie sind angemeldet." />
+            <Button fx:id="logoutBtn" alignment="CENTER" mnemonicParsing="false" text="Ausloggen" />
+                     <Button fx:id="backBtn" alignment="CENTER" cancelButton="true" contentDisplay="TOP" mnemonicParsing="false" text="OK">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+                     </Button>
+                  </children>
+                  <padding>
+                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                  </padding>
+               </VBox>
+            </children>
+            </AnchorPane>
